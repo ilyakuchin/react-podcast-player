@@ -1,7 +1,6 @@
 import React from 'react'
-import styles from './styles.module.css'
 
-export const ExampleComponent = ({ audioUrl }) => {
+export const Player = ({ audioUrl }) => {
   return (
     <audio controls>
       <source src={audioUrl} type='audio/mp4' />
